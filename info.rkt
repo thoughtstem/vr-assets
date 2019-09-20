@@ -6,3 +6,4 @@
 (define pkg-desc "Description Here")
 (define version "0.0")
 (define pkg-authors '(thoughtstem))
+(define test-omit-paths '("demo"))
