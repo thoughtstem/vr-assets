@@ -1,16 +1,21 @@
 #lang at-exp racket
 
 (require "./util/main.rkt"
-         vr-engine 
+         define-assets-from 
+         (rename-in vr-engine
+                    [scale vr:scale]
+                    [color vr:color])
          (prefix-in image: "./asset-images.rkt"))
 
+;TODO: Maybe this shouldn't be here
+(define-assets-from "assets/textures")
 
 (define/provide/doc-glbs "assets"
 
   (alien-plant-1
     image:alien-plant-1
     "This asset is 19 MB."  
-    (scale 0.2 0.2 0.2))
+    (vr:scale 0.2 0.2 0.2))
 
   (baby-cactus
     image:baby-cactus
@@ -20,7 +25,7 @@
   (bunny-rabbit
     image:bunny-rabbit
     "This asset is 20.5 MB. Credits: DarkLordFlash - https://sketchfab.com/3d-models/animated-bunny-rabbit-critter-free-l-poly-3f8b61e440fe43059226a57f269b9b53 "  
-    (scale 0.05 0.05 0.05))
+    (vr:scale 0.05 0.05 0.05))
 
   (bird
     image:bird
@@ -36,12 +41,12 @@
     image:willow-tree
     "This asset is 24 MB. Credits: adam127 - https://sketchfab.com/3d-models/weeping-willow-tree-48c090ce93d543cf8b19d3c6f2b6788a "  
     (animation-mixer)
-    (scale 0.05 0.05 0.05))
+    (vr:scale 0.05 0.05 0.05))
 
   (horse
     image:horse
     ""  
-    (scale 0.05 0.05 0.05))
+    (vr:scale 0.05 0.05 0.05))
 
   (alien-plant-2
     image:alien-plant-2
