@@ -1,7 +1,7 @@
 #lang racket
 
 ;Note: You'll need to install screenshot-glb
-;  https://github.com/Shopify/screenshot-glb
+;  https://github.com/Shopify/screenshot-glb.git
 
 (module+ main
 

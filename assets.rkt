@@ -13,6 +13,10 @@
 
 (define/provide/doc-glbs "assets"
 
+  ;(flying-saucer
+  ; image:flying-saucer
+  ; "This asset is 97 KB. Credits: https://poly.google.com/view/fojR5i3h_nh")
+    
   (alien-plant-1
     image:alien-plant-1
     "This asset is 19 MB."  
