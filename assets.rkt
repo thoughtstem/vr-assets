@@ -13,10 +13,55 @@
 
 (define/provide/doc-glbs "assets"
 
-  ;(flying-saucer
-  ; image:flying-saucer
-  ; "This asset is 97 KB. Credits: https://poly.google.com/view/fojR5i3h_nh")
-    
+  (flying-saucer-1
+   image:flying-saucer-1
+   "This asset is 97 KB. Credits: https://poly.google.com/view/fojR5i3h_nh")
+
+  (flying-saucer-2
+   image:flying-saucer-2
+   "This asset is 54.3 KB. Credits: https://poly.google.com/view/3xbYnZNpJQ3")
+
+  (international-space-station
+   image:internationla-space-station
+   "This asset is 3.31 MB. Credits: https://poly.google.com/view/d3Fq5H6ne8E")
+
+  (asteroids
+   image:asteroids
+   "This asset is 597 KB. Credits: https://poly.google.com/view/enaIlQWET9a")
+
+  (satellite-1
+   image:satellite-1
+   "This asset is 1.32 MB. Credits: https://poly.google.com/view/1C3zb8Q9USk")
+
+  (satellite-2
+   image:satellite-2
+   "This asset is 74.7 KB. Credits: https://poly.google.com/view/fmYHY1leH_P")
+
+  (satellite-3
+   image:satellite-3
+   "This asset is 220 KB. Credits: https://poly.google.com/view/2i9NPgZ-ALP")
+
+  (satellite-4
+   image:satellite-4
+   "This asset is 220 KB. Credits: https://poly.google.com/view/eu5kRApngBL")
+
+  (spaceship
+   img:spaceship
+   "This asset is 539 KB. Credits: https://poly.google.com/view/diV_lzJhYgF")
+
+  (space-shuttle
+   img:space-shuttle
+   "This asset is 2.05 MB. Credits: https://poly.google.com/view/djxolbz_CYC")
+
+  (space-rocket
+   img:space-rocket
+   "This asset is 26.2 KB. Credits: https://poly.google.com/view/c3DPjGP3mNB")
+
+
+
+
+  
+  
   (alien-plant-1
     image:alien-plant-1
     "This asset is 19 MB."  
