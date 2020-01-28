@@ -14,10 +14,10 @@
 ;----
 
 (define/provide/doc-glbs "assets"
-
-  ;(flying-saucer-1
-  ; image:flying-saucer-1
-  ; "This asset is 97 KB. Credits: https://poly.google.com/view/fojR5i3h_nh")
+#|
+  (flying-saucer-1
+   image:flying-saucer-1
+   "This asset is 97 KB. Credits: https://poly.google.com/view/fojR5i3h_nh")
 
   (flying-saucer-2
    image:flying-saucer-2
@@ -71,7 +71,7 @@
    "This asset is 26.2 KB. Credits: https://poly.google.com/view/c3DPjGP3mNB"
    (vr:scale 0.0001 0.0001 0.0001))
 
-
+|#
 
 
   
