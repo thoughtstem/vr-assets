@@ -15,9 +15,7 @@
 
 (define/provide/doc-glbs "assets"
 #|
-  (flying-saucer-1
-   image:flying-saucer-1
-   "This asset is 97 KB. Credits: https://poly.google.com/view/fojR5i3h_nh")
+  
 
   (flying-saucer-2
    image:flying-saucer-2
@@ -130,7 +128,13 @@
   (thoughtstem-logo
     image:thoughtstem-logo
     "This asset is 378 KB. Credits: ThoughSTEM team"  
-    ))
+    )
+
+  ; === NEW ASEETS FOR 3d-orbit
+  (flying-saucer-1
+   image:flying-saucer-1
+   "This asset is 97 KB. Credits: https://poly.google.com/view/fojR5i3h_nh")
+  )
 
 
 
