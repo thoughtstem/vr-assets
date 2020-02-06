@@ -9,8 +9,25 @@
                     )
          (prefix-in image: "./asset-images.rkt"))
 
-;TODO: Maybe this shouldn't be here
+;textures
+(define-assets-from "assets/textures/vektorDex"
+  (for-all-assets (para "Artist Credit: vektorDex. See: "
+                        (link "https://opengameart.org/users/vektordex" "Here") ".")))
+
+(define-assets-from "assets/textures/solar-system-scope"
+  (for-all-assets (para "Artist Credit: Solar System Scope based off NASA images. See: "
+                        (link "https://www.solarsystemscope.com/textures/" "Here") ".")))
+
+(define-assets-from "assets/textures/TinyWorlds"
+  (for-all-assets (para "Artist Credit: Rick Hoppman. See: "
+                        (link "https://opengameart.org/users/tinyworlds" "Here") ".")))
+
+(define-assets-from "assets/textures/rubberduck"
+  (for-all-assets (para "Artist Credit: rubberduck. See: "
+                        (link "https://opengameart.org/users/rubberduck" "Here") ".")))
+
 (define-assets-from "assets/textures")
+
 ;----
 
 (define/provide/doc-glbs "assets"
