@@ -4,11 +4,30 @@
          define-assets-from 
          (rename-in vr-engine
                     [scale vr:scale]
-                    [color vr:color])
+                    [color vr:color]
+                    [rotation vr:rotation]
+                    )
          (prefix-in image: "./asset-images.rkt"))
 
-;TODO: Maybe this shouldn't be here
+;textures
+(define-assets-from "assets/textures/vektorDex"
+  (for-all-assets (para "Artist Credit: vektorDex. See: "
+                        (link "https://opengameart.org/users/vektordex" "Here") ".")))
+
+(define-assets-from "assets/textures/solar-system-scope"
+  (for-all-assets (para "Artist Credit: Solar System Scope based off NASA images. See: "
+                        (link "https://www.solarsystemscope.com/textures/" "Here") ".")))
+
+(define-assets-from "assets/textures/TinyWorlds"
+  (for-all-assets (para "Artist Credit: Rick Hoppman. See: "
+                        (link "https://opengameart.org/users/tinyworlds" "Here") ".")))
+
+(define-assets-from "assets/textures/rubberduck"
+  (for-all-assets (para "Artist Credit: rubberduck. See: "
+                        (link "https://opengameart.org/users/rubberduck" "Here") ".")))
+
 (define-assets-from "assets/textures")
+
 ;----
 
 (define/provide/doc-glbs "assets"
@@ -57,7 +76,7 @@
   (astronaut
     image:astronaut
     ""  
-    )
+    (vr:scale 0.05 0.05 0.05))
 
   (sword
     image:sword
@@ -67,7 +86,65 @@
   (thoughtstem-logo
     image:thoughtstem-logo
     "This asset is 378 KB. Credits: ThoughSTEM team"  
-    ))
+    )
+
+  ; === NEW ASEETS FOR 3d-orbit
+  (flying-saucer-1
+   image:flying-saucer-1
+   "This asset is 97 KB. Credits: https://poly.google.com/view/fojR5i3h_nh")
+  
+  (flying-saucer-2
+   image:flying-saucer-2
+   "This asset is 54.3 KB. Credits: https://poly.google.com/view/3xbYnZNpJQ3"
+   (vr:scale 0.003 0.003 0.003))
+
+  (international-space-station
+   image:internationla-space-station
+   "This asset is 3.31 MB. Credits: https://poly.google.com/view/d3Fq5H6ne8E"
+   (vr:scale 0.3 0.3 0.3))
+
+  (asteroids
+   image:asteroids
+   "This asset is 597 KB. Credits: https://poly.google.com/view/enaIlQWET9a"
+   (vr:scale 0.3 0.3 0.3))
+
+  (satellite-1
+   image:satellite-1
+   "This asset is 1.32 MB. Credits: https://poly.google.com/view/1C3zb8Q9USk"
+   (vr:scale 0.3 0.3 0.3))
+
+  (satellite-2
+   image:satellite-2
+   "This asset is 74.7 KB. Credits: https://poly.google.com/view/fmYHY1leH_P"
+   (vr:scale 0.05 0.05 0.05))
+
+  (satellite-3
+   image:satellite-3
+   "This asset is 220 KB. Credits: https://poly.google.com/view/2i9NPgZ-ALP"
+   (vr:scale 0.01 0.01 0.01))
+
+  (satellite-4
+   image:satellite-4
+   "This asset is 220 KB. Credits: https://poly.google.com/view/eu5kRApngBL"
+   (vr:scale 0.005 0.005 0.005))
+
+  (spaceship
+   img:spaceship
+   "This asset is 539 KB. Credits: https://poly.google.com/view/diV_lzJhYgF"
+   (vr:scale 5 5 5)
+   (vr:rotation 90 0 0)
+   )
+
+  (space-shuttle
+   img:space-shuttle
+   "This asset is 2.05 MB. Credits: https://poly.google.com/view/djxolbz_CYC"
+   (vr:scale 0.2 0.2 0.2))
+
+  (space-rocket
+   img:space-rocket
+   "This asset is 26.2 KB. Credits: https://poly.google.com/view/c3DPjGP3mNB"
+   (vr:scale 0.0001 0.0001 0.0001))
+  )
 
 
 

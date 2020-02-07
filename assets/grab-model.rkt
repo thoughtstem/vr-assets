@@ -4,7 +4,7 @@
   (require net/url)
 
   ;Note: You'll need to install screenshot-glb
-  ;  https://github.com/Shopify/screenshot-glb
+  ;  https://github.com/Shopify/screenshot-glb.git
 
 
   (define url-string (make-parameter #f))
