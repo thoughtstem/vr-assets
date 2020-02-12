@@ -5,10 +5,7 @@
          "../assets.rkt"
          2htdp/image]
 
-@title{vr-assets}
-@author{thoughtstem}
-
-@defmodule[vr-assets]
+@title{Assets}
 
 @section{3D Models}
 A selection of 3D models
