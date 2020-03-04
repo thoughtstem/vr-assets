@@ -45,7 +45,7 @@
   (bunny-rabbit
     image:bunny-rabbit
     "This asset is 20.5 MB. Credits: DarkLordFlash - https://sketchfab.com/3d-models/animated-bunny-rabbit-critter-free-l-poly-3f8b61e440fe43059226a57f269b9b53 "  
-    (vr:scale 0.05 0.05 0.05))
+    (vr:scale 1 1 1))
 
   (bird
     image:bird
