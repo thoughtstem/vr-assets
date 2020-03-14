@@ -2,6 +2,11 @@
 
 ;Note: You'll need to install screenshot-glb
 ;  https://github.com/Shopify/screenshot-glb.git
+;Windows: Use the Node JS Installer: https://nodejs.org/en/download/
+;         and install with the global flag: npm install @shopify/screenshot-glb -g
+;         This will allow you to run screenshot-glb from cmd prompt
+;         Note that to test screenshot-glb in powershell, you must run as admin
+;         and run: Set-ExecutionPolicy RemoteSigned
 
 (module+ main
 
