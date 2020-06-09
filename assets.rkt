@@ -37,10 +37,10 @@
     "This asset is 19 MB."  
     (vr:scale 0.2 0.2 0.2))
 
-  ;(baby-cactus ;not rendering
-  ;  image:baby-cactus
-  ;  "This asset is 7 MB. Credits: pixipui - https://sketchfab.com/3d-models/baby-cactus-2a403b03dbf64f1fb34cf35a295ba8b6"  
-  ;  (animation-mixer))
+  (baby-cactus ;not rendering
+    image:baby-cactus
+    "This asset is 7 MB. Credits: pixipui - https://sketchfab.com/3d-models/baby-cactus-2a403b03dbf64f1fb34cf35a295ba8b6"  
+    (animation-mixer))
 
   (bunny-rabbit
     image:bunny-rabbit
@@ -57,11 +57,11 @@
     "This asset is 29 MB. Credits: Rafi Azhar - https://sketchfab.com/3d-models/magic-stone-e932cbae15854c1eac01a192313c9942"  
     (animation-mixer))
 
-  ;(willow-tree ;not rendering
-  ;  image:willow-tree
-  ;  "This asset is 24 MB. Credits: adam127 - https://sketchfab.com/3d-models/weeping-willow-tree-48c090ce93d543cf8b19d3c6f2b6788a "  
-  ;  (animation-mixer)
-  ;  (vr:scale 0.05 0.05 0.05))
+  (willow-tree ;not rendering
+    image:willow-tree
+    "This asset is 24 MB. Credits: adam127 - https://sketchfab.com/3d-models/weeping-willow-tree-48c090ce93d543cf8b19d3c6f2b6788a "  
+    (animation-mixer)
+    (vr:scale 0.05 0.05 0.05))
 
   (horse
     image:horse
